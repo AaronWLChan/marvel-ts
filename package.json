@@ -1,0 +1,38 @@
+{
+  "name": "marvel-ts",
+  "version": "1.0.0",
+  "description": "TypeScript Wrapper for Marvel API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "marvel",
+    "typescript",
+    "api",
+    "wrapper"
+  ],
+  "author": "AaronWLChan ",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "axios-rate-limit": "^1.3.0",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/md5": "^2.3.2",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4"
+  },
+  "homepage": "https://github.com/AaronWLChan/marvel-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AaronWLChan/marvel-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AaronWLChan/marvel-ts/issues"
+  }
+}
